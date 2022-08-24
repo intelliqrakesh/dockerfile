@@ -1,0 +1,6 @@
+
+
+FROM ubuntu
+MAINTAINER intelliqit
+COPY ./script.sh /
+RUN ./script.sh
